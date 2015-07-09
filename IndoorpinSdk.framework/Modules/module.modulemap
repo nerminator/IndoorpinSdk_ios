@@ -1,0 +1,10 @@
+framework module IndoorpinSdk {
+  umbrella header "IndoorpinSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module IndoorpinSdk.Swift {
+    header "IndoorpinSdk-Swift.h"
+}
